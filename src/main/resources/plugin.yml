@@ -1,14 +1,17 @@
 name: SuperElytra
 main: eisenwave.elytra.SuperElytraPlugin
-version: 2.3
-api-version: 1.13
+version: 2.4
+api-version: 1.20
+authors:
+  - Eisenwave
+  - Kapitan_Floww
 
 permissions:
   superelytra.glide:
-    description: "enhanced gliding"
+    description: "Enhanced gliding"
     default: true
   superelytra.launch:
-    description: "launch by sneaking"
+    description: "Launch by sneaking"
     default: true
   superelytra.command.elytramode:
     description: "/elytramode"
@@ -18,4 +21,5 @@ commands:
   elytramode:
     aliases: [elmode]
     permission: superelytra.command.elytramode
-    description: "changes the personal elytra mode"
+    description: "Changes the personal elytra mode"
+    usage: "elytramode (normal / super)"
